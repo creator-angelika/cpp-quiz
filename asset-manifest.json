@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cpp-quiz/static/css/main.a840be66.css",
+    "main.js": "/cpp-quiz/static/js/main.3c6a6903.js",
+    "index.html": "/cpp-quiz/index.html",
+    "main.a840be66.css.map": "/cpp-quiz/static/css/main.a840be66.css.map",
+    "main.3c6a6903.js.map": "/cpp-quiz/static/js/main.3c6a6903.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a840be66.css",
+    "static/js/main.3c6a6903.js"
+  ]
+}
