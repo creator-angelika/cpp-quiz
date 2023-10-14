@@ -12,93 +12,93 @@ function App() {
 
   const questions = [
     {
-      text: "What is the result of 5 + 3 * 2 in Python?",
+      text: "What is C++ primarily known as?",
       options: [
-        { id: 0, text: "16", isCorrect: false },
-        { id: 1, text: "11", isCorrect: true },
-        { id: 2, text: "13", isCorrect: false },
-        { id: 3, text: "10", isCorrect: false },
+        { id: 0, text: "A web development language", isCorrect: false },
+        { id: 1, text: "A scripting language", isCorrect: true },
+        { id: 2, text: "An object-oriented programming language", isCorrect: false },
+        { id: 3, text: "A markup language", isCorrect: false },
       ],
     },
     {
-      text: "What is the purpose of the __init__ method in a Python class?",
+      text: "What is the primary feature of C++ that distinguishes it from C?",
       options: [
-        { id: 0, text: "To define a class constructor", isCorrect: true },
-        { id: 1, text: "To define a class destructor", isCorrect: false },
-        { id: 2, text: "To initialize class variables", isCorrect: false },
-        { id: 3, text: "To define a static method", isCorrect: false },
+        { id: 0, text: " Object-oriented programming", isCorrect: true },
+        { id: 1, text: "Case sensitivity", isCorrect: false },
+        { id: 2, text: "Preprocessor directives", isCorrect: false },
+        { id: 3, text: "Loops", isCorrect: false },
       ],
     },
     {
-      text: "In Python, what is metaprogramming?",
+      text: "In C++, what is the result of the expression `sizeof(int)`?",
       options: [
-        { id: 0, text: "A programming technique to work with metaclasses.", isCorrect: false },
-        { id: 1, text: "Writing code that generates or manipulates other code during runtime.", isCorrect: true },
-        { id: 2, text: "A way to define classes that are metahuman and can think for themselves.", isCorrect: false },
-        { id: 3, text: "A form of programming that focuses on metaphysical concepts and esoteric ideas.", isCorrect: false },
+        { id: 0, text: "The value of an integer variable", isCorrect: false },
+        { id: 1, text: "The number of bytes used to store an integer", isCorrect: true },
+        { id: 2, text: "The square of an integer", isCorrect: false },
+        { id: 3, text: "The size of the main memory", isCorrect: false },
       ],
     },
     {
-      text: "What does the yield keyword do in Python?",
+      text: "What is the purpose of a constructor in a C++ class?",
       options: [
-        { id: 0, text: "It returns a value from a function and terminates the function's execution.", isCorrect: false },
-        { id: 1, text: "It defines a generator function and allows you to pause and resume its execution.", isCorrect: true },
-        { id: 2, text: "It raises an exception to handle errors in a function.", isCorrect: false },
-        { id: 3, text: "It creates a new thread to run a function concurrently.", isCorrect: false },
+        { id: 0, text: "To create an object of the class", isCorrect: false },
+        { id: 1, text: "To destroy an object of the class", isCorrect: true },
+        { id: 2, text: "To perform memory management", isCorrect: false },
+        { id: 3, text: "To define member functions", isCorrect: false },
       ],
     },
     {
-      text: "Which of the following is a valid Python variable name?",
+      text: "What is RAII (Resource Acquisition Is Initialization) in C++?",
       options: [
-        { id: 0, text: "1variable", isCorrect: false },
-        { id: 1, text: "my-variable", isCorrect: false },
-        { id: 2, text: "_my_variable", isCorrect: false },
-        { id: 3, text: "break", isCorrect: true },
+        { id: 0, text: "A type of C++ data structure", isCorrect: false },
+        { id: 1, text: "A design pattern for managing resources using objects' lifetimes", isCorrect: false },
+        { id: 2, text: "A C++ standard library function", isCorrect: false },
+        { id: 3, text: "A way to declare global variables", isCorrect: true },
       ],
     },
     {
-      text: "What is the purpose of the yield keyword when used in a Python generator function?",
+      text: "Which C++ feature allows you to define a class that is based on an existing class, inheriting its members and behaviors?",
       options: [
-        { id: 0, text: "It terminates the generator function and returns the yielded value.", isCorrect: false },
-        { id: 1, text: "It signals the end of a loop in a generator.", isCorrect: false },
-        { id: 2, text: "It defines a generator expression.", isCorrect: true },
-        { id: 3, text: "It pauses the generator function and yields a value, allowing for resumption of execution.", isCorrect: false },
+        { id: 0, text: "Inheritance", isCorrect: false },
+        { id: 1, text: "Encapsulation", isCorrect: false },
+        { id: 2, text: "Polymorphism", isCorrect: true },
+        { id: 3, text: "Abstraction", isCorrect: false },
       ],
     },
     {
-      text: "What is the primary difference between a Python list and a Python tuple?",
+      text: "What is the standard way to create and manage multithreading in C++?",
       options: [
-        { id: 0, text: "Lists are immutable, while tuples are mutable.", isCorrect: true }, 
-        { id: 1, text: "Lists are ordered and allow duplicate elements, while tuples are unordered and don't allow duplicates.", isCorrect: false },
-        { id: 2, text: " Lists use square brackets [ ], and tuples use parentheses ( ).", isCorrect: false },
-        { id: 3, text: "Lists are used for mathematical calculations, while tuples are used for iteration. ", isCorrect: false },
+        { id: 0, text: "Using the <thread> library", isCorrect: true }, 
+        { id: 1, text: "Using the multithread keyword", isCorrect: false },
+        { id: 2, text: "Using the sync keyword", isCorrect: false },
+        { id: 3, text: " Using the mutex keyword", isCorrect: false },
       ],
     },
     {
-      text: "Which data structure in Python is used to store an unordered collection of unique elements?",
+      text: "What is the purpose of the const qualifier when used in C++ member functions?",
       options: [
-        { id: 0, text: "List", isCorrect: false },
-        { id: 1, text: "Dictionary", isCorrect: false },
-        { id: 2, text: "Set", isCorrect: true },
-        { id: 3, text: "Tuple", isCorrect: false },
+        { id: 0, text: "It indicates that the function is a constructor.", isCorrect: false },
+        { id: 1, text: " It specifies that the function is a destructor.", isCorrect: false },
+        { id: 2, text: "It indicates that the function does not modify the object's state.", isCorrect: true },
+        { id: 3, text: " It makes the function accessible from any part of the program.", isCorrect: false },
       ],
     },
     {
-      text: "What is the purpose of the Python zip() function?",
+      text: " What does the try, catch, and throw constructs do in C++?",
       options: [
-        { id: 0, text: "To create a compressed archive of files and directories.", isCorrect: false },
-        { id: 1, text: "To combine multiple iterables into an iterator of tuples.", isCorrect: true },
-        { id: 2, text: "To sort a list of elements in ascending order.", isCorrect: false },
-        { id: 3, text: "To unzip files in a directory.", isCorrect: false },
+        { id: 0, text: "To create exceptions", isCorrect: false },
+        { id: 1, text: "To handle exceptions", isCorrect: true },
+        { id: 2, text: "To define variables", isCorrect: false },
+        { id: 3, text: "To terminate the program", isCorrect: false },
       ],
     },
     {
-      text: "Which of the following statements is true about Python's asyncio library?",
+      text: "What is the result of `5 == 5` in C++?",
       options: [
-        { id: 0, text: "It is used for creating standalone, single-threaded asynchronous applications.", isCorrect: false },
-        { id: 1, text: "It allows for true parallel execution of code, bypassing the Global Interpreter Lock (GIL).", isCorrect: false },
-        { id: 2, text: "It is primarily used for synchronous I/O operations and doesn't support asynchronous programming.", isCorrect: true },
-        { id: 3, text: "It is only compatible with Python 2.", isCorrect: false },
+        { id: 0, text: " 5", isCorrect: false },
+        { id: 1, text: "True ", isCorrect: false },
+        { id: 2, text: "0", isCorrect: true },
+        { id: 3, text: "False", isCorrect: false },
       ],
     },
   ];
@@ -141,7 +141,7 @@ function App() {
   return (
     <div className="App">
       {/* 1. Header  */}
-      <h1>PYTHON QUIZ</h1>
+      <h1>C++ QUIZ</h1>
 
       {/* 2. Current Score  */}
       <h2>Score: {score}</h2>
@@ -157,7 +157,7 @@ function App() {
           </h2>
           <button onClick={() => restartGame()}>Restart Quiz</button>
           <t/>
-          <button onClick={() => window.location.href = "https://cybrom.com/python/"}>
+          <button onClick={() => window.location.href = "https://cybrom.com/learn-c-and-c-plus-plus-in-bhopal/"}>
   Join Our Course
 </button>
         </div>
